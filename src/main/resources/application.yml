@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: nocosdemo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.10.3.44:8848
